@@ -1,0 +1,8 @@
+.home{
+    margin:auto;
+    width: 100%;    
+}
+body{
+    background-image: url('./hotwings.jpg');
+    background-repeat: repeat;
+}
