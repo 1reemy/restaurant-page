@@ -1,4 +1,3 @@
-import './course.css';
 import './home.css';
 import render from './navbar';
 import Fries from './fries.jpg';

@@ -1,4 +1,3 @@
-import './content.css';
 import './home.css'; 
 import Logo from './LOGO.jpg';
 import render from './navbar.js';

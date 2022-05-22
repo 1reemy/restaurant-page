@@ -2,7 +2,6 @@ import homePage from './home.js';
 import aboutPage from './about.js';
 import menuPage from './menu.js';
 import contactPage from './contact.js'
-import './nav.css';
 
 const loadPage = () => {
     const navBar = document.createElement('nav');
@@ -18,7 +17,7 @@ const loadPage = () => {
     });
     about.textContent = "About";
     about.addEventListener('click', () => {
-        aboutPage();
+        aboutPage();        
     });
     menu.textContent = "Menu";
     menu.addEventListener('click', () => {

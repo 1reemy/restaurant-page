@@ -1,4 +1,3 @@
-import './about.css';
 import './home.css';
 import render from './navbar';
 
