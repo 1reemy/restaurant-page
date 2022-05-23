@@ -26,14 +26,20 @@ const main = () => {
     const main = document.createElement('div');
     const mainTitle = document.createElement('h1');
     const mainPara = document.createElement('p');
+    const link = document.createElement('a');
     const mainImage = new Image();
+    
+    link.appendChild(mainImage);
+
     mainTitle.textContent = "Main";
     mainPara.textContent = "Jerk Salmon";
     mainImage.src = Jerk;
+    mainImage.title = "Click To See Main Ingredients!"
+    link.href = 'https://www.ghcfoods.com/products';
 
     main.classList.add('course');
     main.appendChild(mainTitle);
-    main.appendChild(mainImage);
+    main.appendChild(link);
     main.appendChild(mainPara);
 
     return main;
