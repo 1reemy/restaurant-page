@@ -156,3 +156,156 @@ nav div:hover{
 nav div.active{
     background-color: rgb(209, 164, 75);
 }
+@media only screen and (max-width:500px){
+    html{
+        box-sizing: border-box;
+    }
+    .home{
+        margin:0 6% 0 6%;
+    }
+    body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .style{ 
+        margin-top:15%; 
+        width:100%;   
+    }
+    .style p{
+        margin:auto;
+        width:100%;
+    }
+    .style h1{
+        margin: auto;
+        padding:5px 0px 0px 5px;
+        font-size: 1.8rem;
+    }
+    .style h2{
+        margin:0 10% 0 10%;
+        width:90%;
+        padding: 10px 0px 10px 0px;
+    }    
+    .style a{
+        margin: auto;
+    }
+    .style img{
+        padding-left:10px;
+    }
+    .about{ 
+        display:grid;
+        grid-template-rows: 20% 80%;   
+        margin:auto;
+        margin-top: 15%;
+        width:80%;
+        height: 20rem;         
+        justify-content: center;
+        align-items: center;  
+    }
+    .about p{
+        display: grid;
+        grid-row: 2/3;
+        justify-content: center;
+        font-size:1.5rem;    
+        padding: 10px 30px 60px 30px;
+    }
+    .about h1{ 
+        display: grid;
+        justify-content: center;   
+        margin:auto;
+        width:50%;
+        padding:10px 0px 0px 10px;
+    }
+    .contact{
+        display:grid;
+        grid-template-rows: 25% 25% 25% 25%;   
+        margin:auto;
+        margin-top: 15%;
+        width:80%;
+        height: 20rem; 
+        justify-content: center;
+        align-items: center;
+    }
+    .contact p{
+        display: grid;
+        justify-content: center;
+        font-size:1.5rem;    
+        padding: 15px 0px 60px 0px;
+    }
+    .contact h1{ 
+        display: grid;
+        justify-content: center;   
+        margin:auto;
+        width:50%;
+        padding:10px 0px 0px 10px;
+    }
+    /*Menu Page and Contents*/
+    .course{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: clip;
+        grid-template-rows: 5rem 12rem 5rem;    
+        margin:auto;
+        margin-top: 5%;
+        width:17rem;    
+        background: rgba(218, 71, 13, 0.80);
+        box-shadow: 0px 6px 9px 9px;
+    }
+    .menu{
+        display: grid;
+        /*grid-template-columns: auto auto auto auto;*/
+        grid-template-rows: auto auto auto auto auto;
+        height: 35rem;
+        margin:auto;    
+        margin-top: 2%;
+        width:80rem;
+        background: rgba(209, 201, 198, 0.8);
+        box-shadow: 0px 6px 9px 9px;
+    }
+    .course p{
+        display: grid;
+        justify-content: center;
+        font-size: 1.2rem;
+        grid-row: 3/4;
+    }
+    .menu h1{
+        display: grid;
+        grid-column: 1/span 4;
+        justify-content: center;
+        margin:auto;
+        width:50%;
+        padding:10px 0px 0px 10px;
+    }
+    h2{
+        margin:auto;
+        width:90%;
+        padding: 10px 0px 10px 80px;
+    }
+    .course img{
+        height:10rem;
+        grid-row: 2/3;
+        justify-content: center;
+    }
+    /*Navigation Bar*/
+    nav{
+        display: grid;
+        grid-template-columns: 190px 60px 60px 60px 80px;
+        grid-template-rows: 80px;
+        justify-items: start;
+        background-color: rgba(218, 71, 13, 0.9);
+        font-family: 'Permanent Marker';
+        font-size: 1.2rem;
+    }
+    nav div:hover{
+        background-color: rgb(209, 164, 75);
+        color: green;
+        cursor: pointer;
+        /*box-shadow: 0px 1px 3px 3px;*/
+    }
+    nav div.active{
+        background-color: rgb(209, 164, 75);
+    }
+}
